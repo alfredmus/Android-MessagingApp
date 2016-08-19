@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item
+        android:id="@+id/mapTypeNormal"
+        android:title="Normal"
+        />
+    <item
+        android:id="@+id/mapTypeSatellite"
+        android:title="Satellite"
+        />
+    <item
+        android:id="@+id/mapTypeTerrain"
+        android:title="Terrain"
+        />
+    <item
+        android:id="@+id/mapTypeHybrid"
+        android:title="Hybrid"
+        />
+    <item
+        android:id="@+id/gotoCurrentLocation"
+        android:title="Current Location"
+        />
+</menu>
